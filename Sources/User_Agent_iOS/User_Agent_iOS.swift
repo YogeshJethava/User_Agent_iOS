@@ -12,7 +12,7 @@ import Foundation
 import UIKit
 #endif
 public class UserAgentManager {
-    static let shared = UserAgentManager()
+    public static let shared = UserAgentManager()
     
     //eg. Darwin/16.3.0
     public func DarwinVersion() -> String {
