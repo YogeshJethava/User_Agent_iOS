@@ -11,7 +11,6 @@ UserAgent an library written in Swift.
 - [x] DarwinVersion
 - [x] CFNetworkVersion
 - [x] deviceVersion
-- [x] deviceVersion
 - [x] deviceName
 - [x] appNameAndVersion
 - [x] UAString
@@ -35,3 +34,16 @@ UserAgent an library written in Swift.
   ```swift
   .product(name: "UserAgent", package: "User_Agent_iOS")
   ```
+
+## Example
+
+```swift
+// Automatic String to URL conversion, Swift concurrency support, and automatic retry.
+let darwinVersion = UserAgentManager.shared.DarwinVersion()  //eg. Darwin/16.3.0
+let cfNetworkVersion = UserAgentManager.shared.CFNetworkVersion()  //eg. CFNetwork/808.3
+let deviceVersion = UserAgentManager.shared.deviceVersion()  //eg. iOS/10_1
+let deviceName = UserAgentManager.shared.deviceName()  //eg. iPhone/15_Pro_Max
+let appNameAndVersion = UserAgentManager.shared.appNameAndVersion()  //eg. MyApp/1
+let uaString = UserAgentManager.shared.UAString()  //eg.  CFNetwork/808.3 Darwin/16.3.0 (iPhone/15_Pro_Max iOS/10_1)
+```
+
