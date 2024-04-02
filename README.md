@@ -5,6 +5,7 @@ UserAgent an library written in Swift.
 
 - [Features](#features)
 - [Installation](#installation)
+- [Example](#example)
 
 
 ## Features
