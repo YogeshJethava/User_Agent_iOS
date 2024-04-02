@@ -38,7 +38,6 @@ UserAgent an library written in Swift.
 ## Example
 
 ```swift
-// Automatic String to URL conversion, Swift concurrency support, and automatic retry.
 let darwinVersion = UserAgentManager.shared.DarwinVersion()  //eg. Darwin/16.3.0
 let cfNetworkVersion = UserAgentManager.shared.CFNetworkVersion()  //eg. CFNetwork/808.3
 let deviceVersion = UserAgentManager.shared.deviceVersion()  //eg. iOS/10_1
