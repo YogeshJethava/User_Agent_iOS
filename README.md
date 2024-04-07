@@ -23,7 +23,7 @@ UserAgent an library written in Swift.
 
   The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler.
 
-  Once you have your Swift package set up, adding Alamofire as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift` or the Package list in Xcode.
+  Once you have your Swift package set up, adding User_Agent_iOS as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift` or the Package list in Xcode.
 
   ```swift
   dependencies: [
